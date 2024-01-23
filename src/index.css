@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Architects Daughter', cursive;
+  }
+}
+
+.cws::-webkit-scrollbar {
+    width: 0;
+}
